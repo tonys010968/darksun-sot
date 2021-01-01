@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
-//    File: ds_fug_i_const.nss
-//  System: Fugue Death and Resurrection (constants)
+//    File: ds_lvl_i_const.nss
+//  System: DS Level System (constants)
 // -----------------------------------------------------------------------------
 // Description:
 //  Constants for DS Subsystem.
@@ -13,4 +13,4 @@
 //                                   Constants
 // -----------------------------------------------------------------------------
 
-// There are no constants associated with this system.
+// No constants associated with this system.

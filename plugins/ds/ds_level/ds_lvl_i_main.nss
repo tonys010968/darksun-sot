@@ -1,16 +1,19 @@
 // -----------------------------------------------------------------------------
-//    File: ds_fug_i_const.nss
-//  System: Fugue Death and Resurrection (constants)
+//    File: ds_lvl_i_main.nss
+//  System: DS Level System (core)
 // -----------------------------------------------------------------------------
 // Description:
-//  Constants for DS Subsystem.
+//  Core functions for DS Subsystem.
 // -----------------------------------------------------------------------------
 // Builder Use:
 //  None!  Leave me alone.
 // -----------------------------------------------------------------------------
+#include "ds_i_const"
+#include "ds_lvl_i_const"
+#include "ds_lvl_i_config"
+#include "ds_lvl_i_text"
+#include "pw_i_core"
 
 // -----------------------------------------------------------------------------
-//                                   Constants
+//                              Function Prototypes
 // -----------------------------------------------------------------------------
-
-// There are no constants associated with this system.

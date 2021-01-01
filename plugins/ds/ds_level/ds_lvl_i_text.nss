@@ -1,16 +1,18 @@
 // -----------------------------------------------------------------------------
-//    File: ds_fug_i_const.nss
-//  System: Fugue Death and Resurrection (constants)
+//    File: ds_lvl_i_const.nss
+//  System: DS Level System (text/language)
 // -----------------------------------------------------------------------------
 // Description:
-//  Constants for DS Subsystem.
+//  Text/Language constants for DS Subsystem
 // -----------------------------------------------------------------------------
 // Builder Use:
-//  None!  Leave me alone.
+//  You can translate text literals into various languages in this file, or use
+//  another file and include it instead of this file, as long as the constant
+//  string names are identical.
 // -----------------------------------------------------------------------------
 
 // -----------------------------------------------------------------------------
 //                                   Constants
 // -----------------------------------------------------------------------------
 
-// There are no constants associated with this system.
+// There is no text associated with this system.
