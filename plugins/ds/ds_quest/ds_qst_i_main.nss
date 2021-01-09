@@ -86,6 +86,22 @@
 // left in.  
 void RebuildJournalQuestEntries(object oCreature);
 
+//                          --<RewardPlayer>--
+// This function grants the rewards specified in the Quest to the player upon
+// completion.
+void RewardPlayer(object oCreature);
+
+//                          --<GiveQuest>--
+// This function gives the quest to the player and sets it at position 1.
+void GiveQuest(object oCreature);
+
+//                          --<AdvanceQuest>--
+// This function accepts the QuestID and the PC ID and advances the Quest by 1.
+// It should be called when the player completes an aspect of the quest.  Hmmm.
+// But, what happens if the player completes the steps in the quest out of order.
+// OK forget this for now.  I need to think about this piece of it.
+// TODO - Figure out what to do with the progression of the player through the quest.
+
 // -----------------------------------------------------------------------------
 //                              Function Body
 // -----------------------------------------------------------------------------

@@ -16,3 +16,5 @@
 #include "ds_qst_i_main"
 
 //TODO - Rebuild the Journal Entries in the OnClientEnter event.
+//TODO - Create an event that triggers when the player completes the quest.  OnQuestCompleted?
+//TODO - Create an event that triggers when a player received a quest.
