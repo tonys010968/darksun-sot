@@ -15,6 +15,7 @@
 // 
 // This is the default file name when exporting quests.  It can be overridden in
 // the chat command as well.
+// DS_QUEST_2DA is the name of the 2DA file that contains the quest entries.
 const string DS_QUEST_2DA = "dsquests";
 
 // 
