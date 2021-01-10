@@ -107,5 +107,5 @@ void GiveQuest(object oCreature, string sQstTag);
 // -----------------------------------------------------------------------------
 void GiveQuest(object oCreature, string sQstTag)
 {
-    AddJournalQuestEntry(sQstTag, 1, oPC, FALSE, FALSE, FALSE);
+    AddJournalQuestEntry(sQstTag, 1, oCreature, FALSE, FALSE, FALSE);
 }

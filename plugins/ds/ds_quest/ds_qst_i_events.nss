@@ -20,6 +20,7 @@
 //TODO - Create an event that triggers when a player received a quest.
 void quest_OnPlayerChat()
 {
+    Notice("In Quest OnPlayerChat");
     object oTarget, oPC = GetPCChatSpeaker();
     if ((oTarget = GetChatTarget(oPC)) == OBJECT_INVALID)
         return;
@@ -27,6 +28,15 @@ void quest_OnPlayerChat()
     string sCommand = GetChatCommand(oPC);
     if (sCommand == "giveqst")
     {
-        SendChatResult("You killed " + GetName(oTarget) + ".  You murderer!", oPC);
+        string QstTag = GetChatKeyValue(oPC, "tag");
+        if (QstTag == "")
+        {
+            SendChatResult("No Quest Tag Supplied.", oPC);
+        }
+        else
+        {
+            GiveQuest(oPC, QstTag);
+            SendChatResult("Quest " + QstTag + " assigned to " + GetName(oTarget) + ".", oPC);
+        }
     }
 }
