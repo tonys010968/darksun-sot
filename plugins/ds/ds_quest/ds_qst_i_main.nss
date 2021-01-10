@@ -93,7 +93,7 @@ void RewardPlayer(object oCreature);
 
 //                          --<GiveQuest>--
 // This function gives the quest to the player and sets it at position 1.
-void GiveQuest(object oCreature);
+void GiveQuest(object oCreature, string sQstTag);
 
 //                          --<AdvanceQuest>--
 // This function accepts the QuestID and the PC ID and advances the Quest by 1.
@@ -105,3 +105,7 @@ void GiveQuest(object oCreature);
 // -----------------------------------------------------------------------------
 //                              Function Body
 // -----------------------------------------------------------------------------
+void GiveQuest(object oCreature, string sQstTag)
+{
+    AddJournalQuestEntry(sQstTag, 1, oPC, FALSE, FALSE, FALSE);
+}
