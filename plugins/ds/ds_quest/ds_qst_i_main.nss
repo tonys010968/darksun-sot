@@ -22,7 +22,7 @@
 // This table will track the player's activities on the It will
 // have the following structure:
 // PlayerID             <int?>          PK
-// Quest ID             <int?>          PK
+// Quest ID             <string>        PK
 // Attempt              <int>           PK  - For some quests the player can
 //                                      repeat them so this will allow the key
 //                                      to remain intact.
@@ -36,7 +36,7 @@
 //
 // The second table will actually contain the Quest Information itself.  It will
 // be structured as follows:
-// Quest ID             <int>           PK
+// Quest ID             <string>        PK
 // Plot ID              <string>        PK.  This would allow the quests to tie
 //                                      together into a larger "plot" structure.
 // Times Allowed        <int>           This would indicate how many times the player could
