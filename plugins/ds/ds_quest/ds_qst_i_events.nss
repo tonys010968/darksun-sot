@@ -26,7 +26,7 @@ void quest_OnPlayerChat()
         return;
     
     string sCommand = GetChatCommand(oPC);
-    if (sCommand == "giveqst")
+    if (sCommand == "addquest")
     {
         string QstTag = GetChatKeyValue(oPC, "tag");
         if (QstTag == "")
